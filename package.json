@@ -69,7 +69,7 @@
     "test:playwright": "playwright test",
     "test:playwright:local": "playwright test --project=Chromium",
     "test:playwright:inspect": "playwright test --project=Chromium --debug",
-    "prepare": "ts-patch install -s && husky install && ts-patch install -s && npm run build",
+    "prepare": "ts-patch install -s && husky install && ts-patch install -s && npm run build:vue",
     "update:readme": "node scripts/replaceLinkInReadme.js"
   },
   "workspaces": [
